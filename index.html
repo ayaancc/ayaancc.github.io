@@ -1,7 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="work">
+        <h1>My Work</h1>
+        <!-- Insert work samples here -->
+    </section>
+    <section id="about">
+        <h1>About Me</h1>
+        <p>This is a paragraph about yourself, your skills, and your experiences.</p>
+    </section>
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>
