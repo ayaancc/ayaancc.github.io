@@ -1,0 +1,110 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.post-date {
+    font-size: 0.875rem; /* Slightly smaller date */
+    text-align: center;
+    color: #4a5568; /* Tailwind's text-gray-700 */
+    margin-bottom: 1rem;
+    margin-top: 2rem; /* Larger gap from the top */
+}
+
+.post-title {
+    font-size: 2.5rem; /* Large title but less bold */
+    font-weight: 500; /* Less bold */
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #1a202c; /* Tailwind's text-gray-900 */
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+}
+
+.post-tags {
+    font-size: 1rem; /* Regular font size for tags */
+    text-align: center;
+    color: #4a5568; /* Tailwind's text-gray-700 */
+    margin-bottom: 2rem;
+}
+
+.post-image {
+    display: block;
+    margin: 2rem auto;
+    width: calc(100% + 4rem); /* Wider than the text */
+    max-width: none; /* Remove max-width to allow full expansion */
+    height: auto;
+}
+
+.post-content {
+    max-width: 42rem; /* Equivalent to max-w-3xl */
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+body {
+    background-color: #F9F6EE;
+}
+
+nav {
+    background-color: #F9F6EE;
+}
+.site-title {
+    font-weight: 200; /* Adjust this value if needed */
+}
+
+
+
+
+
+
+
+
+
+.post-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.post-link {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.post-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.1); /* 10% opacity */
+    opacity: 0.1;
+    transition: opacity 0.3s ease;
+}
+
+.post-item:hover .overlay {
+    opacity: 0.7; /* 70% opacity on hover */
+}
+
+.post-title-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 16px;
+    background: none;
+    color: white;
+    text-align: left;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.post-title-overlay .text-xl {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.post-title-overlay .text-sm {
+    font-size: 0.875rem;
+}
