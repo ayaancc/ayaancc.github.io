@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ayaan.codes</title>
+    <link>https://ayaan.codes/</link>
+    <description>Recent content on ayaan.codes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Jul 2024 19:06:07 -0400</lastBuildDate><atom:link href="https://ayaan.codes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenAI Board Forms Safety and Security Committee</title>
+      <link>https://ayaan.codes/posts/post1/</link>
+      <pubDate>Wed, 17 Jul 2024 19:06:07 -0400</pubDate>
+      
+      <guid>https://ayaan.codes/posts/post1/</guid>
+      <description>Today, the OpenAI Board formed a Safety and Security Committee led by directors Bret Taylor (Chair), Adam D’Angelo, Nicole Seligman, and Sam Altman (CEO).
+This committee will be responsible for making recommendations to the full Board on critical safety and security decisions for OpenAI projects and operations. OpenAI has recently begun training its next frontier model and we anticipate the resulting systems to bring us to the next level of capabilities on our path to AGI.</description>
+    </item>
+    
+    <item>
+      <title>OpenAI Board Forms Safety and Security Committee</title>
+      <link>https://ayaan.codes/posts/post2/</link>
+      <pubDate>Wed, 17 Jul 2024 19:06:07 -0400</pubDate>
+      
+      <guid>https://ayaan.codes/posts/post2/</guid>
+      <description>Today, the OpenAI Board formed a Safety and Security Committee led by directors Bret Taylor (Chair), Adam D’Angelo, Nicole Seligman, and Sam Altman (CEO).
+This committee will be responsible for making recommendations to the full Board on critical safety and security decisions for OpenAI projects and operations. OpenAI has recently begun training its next frontier model and we anticipate the resulting systems to bring us to the next level of capabilities on our path to AGI.</description>
+    </item>
+    
+  </channel>
+</rss>
